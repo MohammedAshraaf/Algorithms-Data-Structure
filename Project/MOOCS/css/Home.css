@@ -1,0 +1,357 @@
+
+/* Start Gloabal */
+*
+{
+    -wibkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+    
+}
+
+body
+{
+    background: transparent;
+}
+
+.container
+{
+    width: 1000px;
+    margin: auto;
+}
+
+ul
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.navbar,
+.header,
+.serves,
+.our-project,
+.footer,
+.testim
+{
+    min-width: 1200px;
+}
+a
+{
+    text-decoration: none;
+}
+/* End Gloabal */
+
+/* Start Navbar */
+
+
+.navbar
+{
+    
+    z-index: 2;
+    height: 150px;
+    background-color: #eee;
+    background-image: url(../img/ironpatern.png);
+    
+}
+.navbar .brand
+{
+    float: left;
+    width: 50%;
+    font-size: 20px; 
+    margin-top: 18px;
+} 
+
+
+
+.navbar .brand a
+{
+    color: #585551;
+    font-size: 30px;
+    font-family: inherit;
+    font-weight: bold;
+}
+.navbar h2
+{
+    margin: 35px 0;
+}
+
+.navbar .links
+{
+    float: left;
+    width: 50%;
+    margin-top: 15px;
+}
+.navbar .links li
+{
+    display: inline-block;
+    padding: 10px 0;
+    margin: 35px 10px;
+    font-family: monospace;
+    font-size: 18px;
+    
+}
+.navbar .links li a
+{
+    text-decoration: none;
+    color: #848079;
+}
+.navbar .links li .home a,
+.navbar .links li a:hover
+{
+    border-bottom: 2px solid #1abc9c;
+    color: #1abc9c;
+}
+ 
+/* End Navbar */
+
+/* Start Moocs */
+.Moocs
+{
+    margin: 50px 0;
+    
+}
+.Moocs .img
+{
+    display: block;
+    padding-left: 50px;
+    vertical-align: baseline;
+    position: relative;
+}
+.Moocs img
+{
+    width: 920px;
+    height: 523px;
+    object-fit: cover;
+}
+.Moocs a
+{
+    text-align: center;
+    line-height: 75px;
+
+}
+.Moocs span
+{
+    padding-right: 20px;
+    font: italic normal normal 20px/1.4em sacramento,cursive;
+    transition: color 0.4s ease 0s;
+    color: #FFFFFF;
+    display: inline-block;
+    margin: calc(-1 * 0px) 0px 0;
+    position: relative;
+    white-space: nowrap;
+}
+
+.ele1
+{
+    top: 110px;
+    left: 52px;
+    width: 222px;
+    height: 72px;
+    position: absolute;
+    min-height: 28px;
+    
+}
+.ele2
+{
+    top: 110px;
+    left: 280px;
+    width: 222px;
+    height: 72px;
+    position: absolute;
+    min-height: 28px;
+    
+}
+.ele3
+{
+    top: 110px;
+    left: 510px;
+    width: 222px;
+    height: 72px;
+    position: absolute;
+    min-height: 28px;
+    
+}
+.ele4
+{
+    top: 110px;
+    left: 740px;
+    width: 228px;
+    height: 72px;
+    position: absolute;
+    min-height: 28px;
+    
+}
+.molink
+{
+    border-radius: 20px 0 20px 0;
+    background-color: rgba(0, 108, 109, 1);
+    border: solid rgba(0, 77, 78, 1) 0px;
+    cursor: pointer !important;
+    border-radius: 20px 0 20px 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.row1
+{
+    top: 25px;
+    left: 276px;
+    width: 5px;
+    height: 500px;
+    position: absolute;
+    border-left: 10px solid rgba(248, 248, 248, 1);
+    margin-left: -5px;
+    width: 0 !important;
+    min-width: 0 !important;
+}
+.row2
+{
+    top: 25px;
+    left: 506px;
+    width: 10px;
+    height: 500px;
+    position: absolute;
+    border-left: 10px solid rgba(248, 248, 248, 1);
+    margin-left: -5px;
+    width: 0 !important;
+    min-width: 0 !important;
+}
+.row3
+{
+    top: 25px;
+    left: 736px;
+    width: 10px;
+    height: 500px;
+    position: absolute;
+    border-left: 10px solid rgba(248, 248, 248, 1);
+    margin-left: -5px;
+    width: 0 !important;
+    min-width: 0 !important;
+}
+
+.Moocs .explain 
+{
+    margin: 50px;
+}
+.Moocs .explain h2
+{
+    text-align: center;
+    color: crimson;
+}
+.explain p
+{
+    line-height: 1.7;
+}
+.Moocs .explain h2
+{
+    border-radius: 50%;
+    border: 4px solid #CCC;
+    width: 250px;
+    height: 100px;
+    margin-left: 340px;
+    line-height: 100px;
+}
+/* End Moocs */
+
+/* Start Footer */
+
+.footer
+{
+    background-color: #232323;
+    color: #6C6C6C;
+    padding: 40px 0;
+    overflow: hidden;
+}
+.footer .col
+{
+    width: 33.3333%;
+    float: left;
+}
+
+.footer .col h2
+{
+    color: #FFF;
+    font-weight: normal;
+    font-size: 20px;
+}
+.footer .col p
+{
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+.footer .col i
+{
+    display: inline-block;
+    width: 50px;
+    padding: 10px 9px;
+    border: 1px solid #979797;
+    color: #979797;
+    margin: 3px;
+}
+.footer .tags span
+{
+    display: inline-block;
+    padding: 7px;
+    border: 1px solid #E7E7E7;
+    color: #CCC;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+.footer .copyright
+{
+    margin-top: 0px;
+}
+.footer .post > div 
+{
+    overflow: hidden; 
+    margin-bottom: 10px;
+
+}
+.footer .post > div img
+{
+    float: left;
+    margin-right: 10px;
+}
+.footer .post h4
+{
+    margin: 0;
+    margin-bottom: 5px;
+    font-weight: normal;
+    color: #CCC;
+}
+.footer .blog ul li
+{
+    padding: 15px;
+    border-bottom: 1px solid #979797;
+    color: #CCC;
+}
+.footer .blog h2
+{
+    color: aqua;
+}
+
+/* End Footer */
+/* Start clear fix */
+
+.clearfix
+{
+    clear: both;
+}
+.special-heading
+{
+    position: relative;
+}
+
+
+.special-heading:after
+{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 40px;
+    width: 45px;
+    border: 2px solid #909090;
+}
+/* End Clear Fix */
