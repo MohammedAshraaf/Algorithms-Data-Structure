@@ -1,7 +1,8 @@
-
+/*
+ * Implementation of Merge Sort
+ */
 public class MergeSort {
 
-	
 	/**
 	 * sorts the array by applying the divide part!
 	 * @param mainArray
