@@ -1,4 +1,4 @@
-﻿# College Tasks
+﻿# Algorithms & Data Structure
 
 Implementation of Algorithms and Data Structure
 
