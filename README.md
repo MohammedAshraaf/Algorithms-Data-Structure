@@ -1,4 +1,4 @@
-﻿# College Tasks
+﻿# Algorithms & Data Structure
 
 Implementation of some Algorithms and Data Structure
 Java = College
