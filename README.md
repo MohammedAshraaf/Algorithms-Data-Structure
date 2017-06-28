@@ -2,7 +2,7 @@
 
 Implementation of some Algorithms and Data Structure
 
-## differen languages
+## Different languages
 
 Java = College<br>
 Python = Introduction to Algorithms from MIT<br>
