@@ -7,7 +7,6 @@ class MaxHeap:
         for i in xrange(len(self.heap) / 2, len(self.heap)):
             self.bubbleUp(i)
 
-
     '''let the heap be max-heap when created for the first time'''
     def bubbleUp(self, child):
         self.up += 1
@@ -17,7 +16,6 @@ class MaxHeap:
         if self.heap[parent] < self.heap[child]:
             self.heap[parent], self.heap[child] = self.heap[child], self.heap[parent]
         self.bubbleUp(parent)
-
 
     '''
     max heapify the heap recursively
