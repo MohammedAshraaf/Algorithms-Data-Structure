@@ -1,6 +1,8 @@
 ﻿# College Tasks
 
-Implementation of Algorithms and Data Structure
+Implementation of some Algorithms and Data Structure
+Java = College
+Python = Introduction to Algorithms from MIT
 
 ## Getting Started
 
